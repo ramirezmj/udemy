@@ -79,7 +79,7 @@ p.lead {
 
 /* ---------------------------
 	Layout
-   -------------------------- */
+   --------------------------- */
 
 .container {
 	width: 940px;
@@ -88,7 +88,7 @@ p.lead {
 }
 
 header {
-	background: #000000;		
+	background: #000;
 }
 
 #logo {
@@ -108,13 +108,64 @@ header {
 	float: left;
 }
 
+#call-to-action {
+	margin: 40px 0;
+}
+
 #hero-image {
 	float: right;
 	margin: 10px 0 -30px 0;
 }
 
-#call-to-action {
-	margin: 40px 0;
+#lead-in {
+	margin-bottom: 30px;
+}
+
+#content {
+	padding: 100px 0;
+}
+
+#column-content {
+	width: 700px;
+	float: left;
+}
+
+/* ---------------------------
+	Sidebar
+   --------------------------- */
+
+aside {
+	background: #444;
+	width: 160px; /* 220px with 60px of left and right padding */
+	color: #fff;
+	float: left;
+	margin-left: 20px;
+	padding: 30px;
+	font-size: 12px;
+	line-height: 18px;
+}
+
+aside .widget {
+	margin: 10px 0;
+}
+
+aside .widget:nth-child(2) {
+	margin-top: 40px;
+}
+
+aside .widget h4 {
+	font-weight: 200;
+	font-size: 20px;
+	margin: 0 0 10px;
+}
+
+aside .socials a {
+	position: relative;
+	margin-right: 5px;
+}
+
+aside .socials a:hover {
+	top: -1px;
 }
 
 /* ---------------------------
@@ -231,6 +282,19 @@ header nav ul li a:active {
 /* ---------------------------
 	Global Styles
    -------------------------- */
+
+.column {
+	float:left;
+	margin-right: 20px;
+}
+
+.four {
+	width: 220px;
+}
+
+.last {
+	margin-right: 0;
+}
 
 .clearfix:before,
 .clearfix:after {
