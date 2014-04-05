@@ -169,6 +169,61 @@ aside .socials a:hover {
 }
 
 /* ---------------------------
+	Secondary Call-to-action
+   --------------------------- */
+
+#secondary-cta {
+	background: #eee;
+	padding: 30px 0;
+}
+
+#secondary-cta h4 {
+	font-weight: 200;
+	font-size: 24px;
+	float: left;
+	padding-top: 10px;
+}
+
+#secondary-cta form {
+	margin: 0;
+	float: right;
+}
+
+/* ---------------------------
+	Footer
+   --------------------------- */
+
+footer {
+	background: #444;
+	color: #fff;
+	padding: 50px 0;
+}
+
+footer #copyright {
+	width: 280px;
+	float: left;
+}
+
+footer nav {
+	width: 340px;
+	float: right;
+}
+
+footer a {
+	color: #fff;
+	text-decoration: none;
+}
+
+footer nav a {
+	margin: 0 0 0 15px;
+}
+
+footer nav a:hover {
+	color: #00c0ff;	
+}
+
+
+/* ---------------------------
 	Navigation
    -------------------------- */
 
@@ -260,6 +315,10 @@ header nav ul li a:active {
 	font-size: 20px;
 }
 
+.btn-small {
+	font-weight: bold;
+}
+
 .btn-secondary, .btn-secondary:hover, btn-secondary:active {
 	background: none;
 	border: none;
@@ -282,6 +341,19 @@ header nav ul li a:active {
 /* ---------------------------
 	Global Styles
    -------------------------- */
+
+input {
+	-webkit-font-smoothing: antialiased;
+	text-rendering:optimizeLegibility;
+}
+
+input [type="text"], [type="email"] {
+	position: relative;
+	padding: 11px 10px;
+	border: solid 1px #ccc;
+	width: 220px;
+	margin: 0 -5px 0;
+}
 
 .column {
 	float:left;
